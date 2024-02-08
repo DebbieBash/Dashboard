@@ -16,6 +16,7 @@
 
 .side-bar{
     width: 15%;
+    height: 100%;
     background-color: rgb(247, 247, 247);
     padding: 2rem;
     display: flex;
@@ -46,7 +47,8 @@ img{
 .dashboard-container{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: start;
     gap: 4rem;
 }
 
@@ -54,6 +56,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
@@ -61,6 +64,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -68,13 +72,15 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
 .project-container{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -82,13 +88,15 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
 .calendar-container{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -96,13 +104,16 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
 .document-container{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: start;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -110,6 +121,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
@@ -117,6 +129,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -124,6 +137,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 0.3rem;
 }
 
@@ -135,7 +149,40 @@ img{
 
 }
 
+.heroicons-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.3rem;
+}
 
+.tailwind-labs-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+.workcation-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.1rem;
+    width: 48px;
+    height: 48px;
+}
 
 
 
@@ -164,4 +211,5 @@ img{
 .right-bar{
     width: 85%;
     background-color: rgb(234, 234, 234);
+    height: 100%;
 }

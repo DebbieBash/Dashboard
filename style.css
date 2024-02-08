@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    width: 100% vw;
+    height: 100% vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.side-bar{
+    width: 15%;
+    background-color: rgb(247, 247, 247);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 200px
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.dashboard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.dashboard-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.team-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.project-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.calendar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.calendar-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.document-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.document-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.report-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.report-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.icon{
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.your-teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-bar{
+    width: 85%;
+    background-color: rgb(234, 234, 234);
+}
